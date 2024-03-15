@@ -1,0 +1,129 @@
+{
+  "intentos":
+  [
+    {
+      "etiqueta":"saludo",
+      "entrada":["hola", "buenos días","buenas noches","hola quiero preguntar algo","hola que tal","que tal?","hola ?",
+      "tengo una consulta","tengo una pregunta"
+      ],
+      "respuestas":[
+        "Hola, bienvenido ¿Como te puedo ayudar?",
+        "Hola, en que te puedo ayudar?",
+        "Hola, cual es tu consulta"
+      ]
+    },
+    {
+      "etiqueta":"despedida",
+      "entrada":["gracias","muchas gracias","gracias por la información","adiós","hasta luego",
+      "hasta la proxima","de acuerdo gracias","ok gracias"],
+      "respuestas":[
+        "Hasta luego",
+        "Que tenga un buen día!",
+        "okey, hasta luego",
+        "De acuerdo, adios",
+        "Gracias a usted. Hasta luego"]
+    },
+    {
+      "etiqueta":"abandono de cargo",
+      "entrada":["que debo presentar para el abandono de cargo de docente","como hago para presentar mi abandono de cargo",
+      "que debo presentar para el abandono de cargo","abandono de cargo"
+      ],
+      "respuestas":[
+        "Para el abandono de cargo debes presentar lo siguiente: oficio firmado por el director informando el abandono al puesto de trabajo y copia de registro de asistencia del personal docente o administrativo.",
+        "Debes presentar lo siguiente: oficio firmado por el director informando el abandono del puesto de trabajo y copia de registro de asistencia del personal docente o administrativo."
+       ]
+    },
+    {
+      "etiqueta":"posesión de cargo",
+      "entrada":["que debo presentar para entregar la posesión de cargo","posesión de cargo","que requisitos para la posesión de cargo",
+      "posesion de cargo"
+      ],
+      "respuestas":[
+        "Entregar oficio firmado por el director informando la posesión de cargo",
+        "Oficio firmado por el director informando la posesión de cargo"
+       ]
+    },
+    {
+      "etiqueta":"reincorporación docente",
+      "entrada":["que tramites debo presentar para reincoporarme como docente","cómo puedo iniciar el trámite de reincorporación docente","reincorporación docente",
+      "reincorporacion docente","Cuáles son los documentos necesarios para la reincorporación docente","cuánto tiempo toma el proceso de reincorporación",
+      "que requisitos debo presentar para reincoporarme como docente","que requisitos para reincoporarme como docente"
+      ],
+      "respuestas":[
+        " Para la reincorporación docente debes presentar lo siguiente: el oficio firmado por el director informando la reincorporación por licencia sin goce, FUT del docente solicitando la reincorporación , RD de licencia.(Opcional)",
+        " Debes presentar lo siguiente: oficio firmado por el director informando la reincorporación por su licencia sin goce, FUT del docente solicitando la reincorporación , (Opcional) RD de licencia."
+      ]
+    },
+    {
+      "etiqueta":"constancia",
+      "entrada":["quiero solicitar mi constancia","como solicito mi constancia","me ayudas con mi solicitud de constancia","constancia","constancias","constancia de trabajo"
+      ],
+      "respuestas":[
+        "Por favor, especifique la constancia que está solicitando. Las opciones son: constancia de haberes, constancia de trabajo CAS, constancia de practicante , constancia de prestación de servicios.",
+        "Por favor, indique claramente la constancia que está solicitando. Las opciones son: constancia de haberes, constancia de trabajo CAS, constancia de practicante, constancia de prestación de servicios."
+      ]
+    },
+    {
+      "etiqueta":"constancia de haberes",
+      "entrada":["quiero solicitar mi constancia de haberes",
+      "como solicito mi constancia de haberes",
+      "constancia de haberes",
+      "cómo puedo iniciar el trámite de constancia de haberes"
+      ],
+      "respuestas":[
+        "Debes adjuntar, los siguientes documentos por mesa de partes: FUT solicitando constancia de haberes, escaneado de DNI y escaneado de resoluciones.",
+        "Es necesario adjuntar los siguientes documentos por mesa de partes: FUT solicitando constancia de haberes, escaneado de DNI y escaneado de resoluciones."
+      ]
+    },
+    {
+      "etiqueta":"constancia de practicante",
+      "entrada":["que documentos debo presentar para la constancia de practicante","que documentos debo presentar para mi constancia de practicante",
+      "cómo puedo iniciar el trámite de constancia de practicante",
+      "constancia de practicante","constancia de prácticas","constancia de practicas",
+      "Cuáles son los documentos para solicitar la constancia de practicante",
+      "como solicito mi constancia de practicante","como solicito mi constancia de practicante"
+      ],
+      "respuestas":[
+        " Debes adjuntar, por mesa de partes, los siguiente documentos: FUT indicando el requerimiento de constancia (Indicar el tipo: Si es Practicante o CAS) y copia del DNI.",
+        " Los siguientes documentos, debes adjuntar por mesa de partes: FUT indicando el requerimiento de constancia (Indicar el tipo: Si es Practicante o CAS) y copia del DNI."
+      ]
+    },
+    {
+      "etiqueta":"constancia de trabajo CAS",
+      "entrada":["que documentos debo presentar para la constancia de trabajo CAS",
+      "cómo puedo iniciar el trámite de constancia de trabajo CAS",
+      "constancia de trabajo CAS","CONSTANCIA DE TRABAJO CAS",
+      "Cuáles son los documentos para solicitar la constancia de trabajo CAS",
+      "como solicito mi constancia de trabajo CAS","constancia de trabajo CAS como solicito"
+      ],
+      "respuestas":[
+        " Debes adjuntar, por mesa de partes, los siguiente documentos: FUT indicando el requerimiento de constancia (Indicar el tipo: Si es Practicante o CAS) y copia del DNI.",
+        " Los siguientes documentos, debes adjuntar por mesa de partes: FUT indicando el requerimiento de constancia (Indicar el tipo: Si es Practicante o CAS) y copia del DNI."
+      ]
+    },
+    {
+      "etiqueta":"constancia de prestación de servicios",
+      "entrada":["que documentos debo presentar para solicitar mi constancia de prestación de servicios",
+      "que documentos debo presentar para mi constancia de prestación de servicios",
+      "constancia de prestación de servicios",
+      "Cuáles son los documentos para solicitar la constancia de de prestación de servicios",
+      "como solicito mi constancia de prestación de servicios","constancia de servicio","constancia de prestación de servicio"
+      ],
+      "respuestas":[
+        " Debes adjuntar, por mesa de partes, los siguiente documentos: FUT dirigido a la directora de la UGEL 05 (indicando el número de la orden y el año del servicio) y documento escaneado de DNI (ambas caras).",
+        " Los siguientes documentos, debes adjuntar por mesa de partes: FUT dirigido a la directora de la UGEL 05 (indicando el número de la orden y el año del servicio) y documento escaneado de DNI (ambas caras)."
+      ]
+    },
+    {
+      "etiqueta":"convocatoria CAS",
+      "entrada":["que documentos debo presentar para la convocatoria CAS",
+      "que requisitos debo presentar para postular a la convocatoria CAS",
+      "que requisitos debo presentar para la convocatoria CAS",
+      "convocatoria cas"],
+      "respuestas":[
+        "Los requisitos son: Modelo de carta - Anexo Nº 01, Ficha Hoja de Vida - Anexo Nº 02 y su sustento, Copia simple de Documento Nacional de Identidad, Declaración Jurada de Afiliación al Régimen Previsional- Anexo Nº 04 , Declaración Jurada de no encontrarse inmerso en ninguno de los supuestos establecidos en la Ley N° 29988. - Anexo Nº 05, Declaración Jurada de Ausencia de Nepotismo - Anexo N° 06,Declaración Jurada de Prohibición de Percibir doble ingreso por parte del estado -Anexo N° 07, Autorización para recibir notificaciones por correo electrónico del Área de Recursos Humanos de la Unidad de Gestión Educativa Local N° 05- Anexo N°  08, Declaración Jurada sobre la Veracidad de la Información y Habilitación- Anexo N°  09",
+        "Los documentos a presentar son: Modelo de carta - Anexo Nº 01, Ficha Hoja de Vida - Anexo Nº 02 y su sustento, Copia simple de Documento Nacional de Identidad, Declaración Jurada de Afiliación al Régimen Previsional- Anexo Nº 04 , Declaración Jurada de no encontrarse inmerso en ninguno de los supuestos establecidos en la Ley N° 29988. - Anexo Nº 05, Declaración Jurada de Ausencia de Nepotismo - Anexo N° 06,Declaración Jurada de Prohibición de Percibir doble ingreso por parte del estado -Anexo N° 07, Autorización para recibir notificaciones por correo electrónico del Área de Recursos Humanos de la Unidad de Gestión Educativa Local N° 05- Anexo N°  08, Declaración Jurada sobre la Veracidad de la Información y Habilitación- Anexo N°  09"
+      ]
+    }
+  ]
+}
